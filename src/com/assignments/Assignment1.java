@@ -4,7 +4,7 @@ public class Assignment1 {
 
 	public static void main(String[] args) {
 		
-		//1.Temparature of a city in degrees Celsius
+		 //1.Temparature of a city in degrees Celsius
          float temparature =25.5f;
          System.out.printf("Temparature of a city in degrees Celsius is %.1f%n ", 25.5 );
          
