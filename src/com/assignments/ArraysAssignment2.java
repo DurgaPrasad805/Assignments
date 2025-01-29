@@ -4,6 +4,7 @@ public class ArraysAssignment2 {
 
 	public static void main(String[] args) {
 		
+		//String[][][] semisterdata=new String[5][5][5];
 		
 		String[][][] semisterdata= {
                      				{
