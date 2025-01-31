@@ -3,7 +3,7 @@ package com.assignments;
 public class EmpGroups extends Employees{
 	
 	//Storing Employee Names & Employee ID's 
-	String[] EmpNames = {"Prasad","XYZ","ABC"};
+	String[] EmpNames = {"Prasad","XYZ", "ABC"};
 	int[] EmpIDs = {1234, 1245, 1236};
 
 	public static void main(String[] args) {
