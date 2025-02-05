@@ -47,7 +47,7 @@ public class AssignmentOnLoops {
 		}
 		
 		System.out.println("Total Credited Total Amount: " + creditedTotalAmount);
-		System.out.println("Total Credited Total Amount: " + debitedTotalAmount);
+		System.out.println("Total Debited Total Amount: " + debitedTotalAmount);
 		
 		int totalAmountInBank = creditedTotalAmount + debitedTotalAmount;
 		System.out.println("Total Amount in the bank : " + totalAmountInBank);
