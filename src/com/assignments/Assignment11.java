@@ -35,7 +35,7 @@ public class Assignment11 {
 		
 		for(int i=1; i< 2 ; i++ ) {
 			
-			result2 =result2 * 2 ;
+			result2 = result2 * 2 ;
 			
 		}
 		
