@@ -15,14 +15,14 @@ function LoanEligibityOfPerson(custonerName:string,creditScore:number,income:num
                 console.log("not eligine because of unemployed")
             }
         }else{
-            console.log("not eligible for laon because for low income")
+            console.log("not eligible for loan because for low income")
         }
     }else{
-        console.log("not eligible for laon because low creditscore")
+        console.log("not eligible for loan because low creditscore")
     }
 
 }
- console.log("Prasad is " + LoanEligibityOfPerson("prasad",749,55000.0,true,35.0));
+ console.log("Prasad is " + LoanEligibityOfPerson("prasad",750,55000.0,true,35.0));
 
 
 
