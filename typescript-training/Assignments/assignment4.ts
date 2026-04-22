@@ -7,19 +7,19 @@ let totalDebitedAmount=0;
 let suspeciousTransaction=0;
 
 //Getting the each transaction through the loop
-for(let amuont of transactions ){
+for(let amount of transactions ){
      
-     if(amuont>0){
+     if(amount>0){
         creditedAmount++;
-        totalCreditedAmount+=amuont;
-     }else if(amuont<0){
+        totalCreditedAmount+=amount;
+     }else if(amount<0){
         debitedAmount++;
-        totalDebitedAmount+=amuont;
+        totalDebitedAmount+=amount;
      }
 
      //Suspecious Transaction between 10000 to -10000
-     if(amuont> 10000 || amuont < -10000){
-      console.log("Suspecious Transaction  :" + amuont);
+     if(amount> 10000 || amount < -10000){
+      console.log("Suspecious Transaction  :" + amount);
         suspeciousTransaction++;
      }
 }
