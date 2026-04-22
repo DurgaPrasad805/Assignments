@@ -23,7 +23,7 @@ function LoanEligibityOfPerson(customerName:string,creditScore:number,income:num
     }
 
 }
- LoanEligibityOfPerson("prasad",750,55000.0,true,35.0);
+ LoanEligibityOfPerson("prasad",670,55000.0,true,35.0);
 
 
 
